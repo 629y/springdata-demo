@@ -1,18 +1,18 @@
 spring:
-#  redis ??
+#  redis 配置
   redis:
     host: r-uf6qppd4tmlvzgig1ypd.redis.rds.aliyuncs.com
     port: 6379
     password: Courseimooc1
     database: 5
-#   jedis ?????
+#   jedis 连接池配置
 #    jedis:
 #      pool:
 #        max-active: 8
 #        max-idle: 8
 #        min-idle: 0
 #        max-wait: 1000
-#    lettuce ?????
+#    lettuce 连接池配置
     lettuce:
       pool:
         max-active: 8
