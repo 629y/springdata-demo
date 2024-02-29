@@ -1,0 +1,22 @@
+spring:
+#  redis ??
+  redis:
+    host: r-uf6qppd4tmlvzgig1ypd.redis.rds.aliyuncs.com
+    port: 6379
+    password: Courseimooc1
+    database: 5
+#   jedis ?????
+#    jedis:
+#      pool:
+#        max-active: 8
+#        max-idle: 8
+#        min-idle: 0
+#        max-wait: 1000
+#    lettuce ?????
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: 1000
+
